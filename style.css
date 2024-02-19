@@ -13,10 +13,14 @@
     color: white;
     margin-left: 30px;
 }
+#menu a:hover{
+    color: #CCCC;
+}
 #menu{
     display: flex;
-    width: 55%;
+    width: 45%;
     justify-content: space-around;
+    margin-left: 5%;
 }
 #principal{
     width: 100%;
@@ -25,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #BABABA;
 }
 #principal button{
     width: 80px;
@@ -33,4 +38,30 @@
     background-color: #0C70F2;
     color: white;
     border: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    cursor: pointer;
+    box-shadow: 3px 2px 5px rgba(12, 112, 242, 0.5);
+}
+#principal button:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    background-color: #044caa;
+}
+#Texto-informativo{
+    text-align: center;
+    color: white;
+    
+
+}
+#Texto-informativo h1{
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 97px;
+    letter-spacing: 0em;
+    padding-top: 50px;
 }
