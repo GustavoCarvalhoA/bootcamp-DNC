@@ -253,12 +253,15 @@ footer nav{
 }
 
 @media only screen and (max-width: 600px){
+    /* Cabeçalho */
+
     body {
         background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 23%, rgba(12, 112, 242, 0) 28%),#303030;}
     #menu a{
         font-size: 10px;
         font-weight: 600;
         margin-left: 10px;}
+
         #principal{
             padding-right: 60px;
         }
@@ -270,63 +273,67 @@ footer nav{
             font-size: 10px;
            
         }
+
         header h1{
 
             font-size: 40px;
             }
 
-            header h2{
-                font-size: 20px;
-                margin-left: 9px;
+        header h2{   
+            font-size: 20px;
+            margin-left: 9px;
                 }
+    /*Section*/
 
-                section{
-                    margin-top: 40px;
-                    margin-bottom: 30px;}
+         section{
+            margin-top: 40px;
+            margin-bottom: 30px;}
 
-                .text input{
-                    margin-left: 30px;
-                    width: 350px;
-                    height: 45px;}
-                    form{
-                        margin-top: 100px;}
+        .text input{
+            margin-left: 30px;
+            width: 350px;
+            height: 45px;}
 
-                    .text button{ 
-                            width: 350px;
-                            font-size: 20px;
-                            margin-left: 30px;
-                        }
-                        label{
-                            color: #FFFFFF;
-                            font-family: Inter;
-                            font-size: 20px;
-                            margin-left: 10px;}
-                        #checkbox{
-                            font-size: 15px;}
-                        .linha1 ul{
-                            font-size: 15px;}
-                        .linha1 h5{
-                            font-size: 15px;
-                            margin-top: 25px;
-                        }
-                        #endereço{
-                            font-size: 10px;
-                            padding-top: 160px;
-                            padding-left: 10px;
-                        }
-                        footer{
-                            padding-right: 60px;
-                        }
-                        footer nav{
-                            height: 200px;
+        form{
+            margin-top: 100px;}
+
+        .text button{ 
+            width: 350px;
+            font-size: 20px;
+            margin-left: 30px;}
                         
-                            
-                        }
-                        #linha2 a{
-                            font-size: 10px;
-                            margin-top: 60px;
+        label{
+            color: #FFFFFF;
+            font-family: Inter;
+            font-size: 20px;
+            margin-left: 10px;}
+        #checkbox{
+            font-size: 15px;}
+     /*Footer*/
+
+        .linha1 ul{
+             font-size: 15px;}
+
+        .linha1 h5{
+            font-size: 15px;
+            margin-top: 25px;}
                         
-                        }
+        #endereço{
+            font-size: 10px;
+            padding-top: 160px;
+            padding-left: 10px;}
+                        
+        footer{
+            padding-right: 60px;}
+                        
+        footer nav{
+            height: 200px;}
+                                    
+        #linha2 a{
+            font-size: 10px;
+            margin-top: 60px;}
+                        
+                        
                         
                         
 
