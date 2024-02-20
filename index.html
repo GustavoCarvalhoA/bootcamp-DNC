@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Bootcamp</title>
 </head>
 <body>
+    <!--Menu Principal-->
     <nav id="principal">
         <div id="menu">
            <a href="">Home</a>
@@ -18,45 +19,62 @@
         </div>
         <button>Login</button>
     </nav>
+    <!--Cabeçalho-->
         <section>
+
             <header>
-            <h1>BOOTCAMP DNC</h1><br>
-            <h2>Esse será um evento exclusivo para todos os alunos<br>
+              <h1>BOOTCAMP DNC</h1><br>
+                 <h2>Esse será um evento exclusivo para todos os alunos<br>
                 da <b>DNC</b>, que querem <span class="texto-diferente"> acelerar carreira</span> com uma<br>
                 semana intensiva de conteúdo de mercado entre<br> 
                 <span class="texto-diferente">BACK-END, FRONT-END & BANCO DE DADOS.</span></h2>
             </header>
+
+    <!--Formulario-->
+
             <form action="">
 
                 <div class="text">
-                <label><b>Nome:</b></label><br>                
+                <label>Nome:</label><br>                
                 <input type="text" name="Nome" placeholder="Insira seu nome aqui"> <br></div>
 
                 <div class="text">
-                <label><b>Sobrenome:</b></label><br>
+                <label>Sobrenome:</label><br>
                 <input type="text" name="Sobrenome" placeholder="Insira seu sobrenome aqui"><br></div>
 
+    <!--CheckBox-->
+
+                <div class="check">
+                <label>Área de interesse:</label>
                 <div id="checkbox">
-                <label><b>Área de interesse:</b></label><br>
                 <input type="checkbox" value="Front" name="area de interesse" id="">Front-End
                 <input type="checkbox" value="Back" name="area de interesse" id="">Back-End
-                <input type="checkbox" value="Banco" name="area de interesse" id="">Banco de Dados <br></div>
+                <input type="checkbox" value="Banco" name="area de interesse" id="">Banco de Dados <br>
+
+               </div>
+            </div>
 
                 <div class="text">
-                <label><b>E-mail</b></label><br>
-                <input type="email" name="Nome" placeholder="Insira seu E-mail aqui"> <br></div>
+                <label>E-mail</label><br>
+                <input type="email" name="Nome" placeholder="Insira seu E-mail aqui"> <br>
+
+            </div>
 
                 <div class="text">
-                <label><b>Telefone:</b></label><br>
-                <input type="text" name="Nome" placeholder="(99) 9999-9999"> <br></div>
+                <label>Telefone:</label><br>
+                <input type="text" name="Nome" placeholder="(99) 9999-9999"> <br>
 
-                <div  class="text">
-                <label><b>Insira uma frase criativa:</b></label><br>
+            </div>
+                <div class="text">
+                <label>Insira uma frase criativa:</label><br>
                 <input type="text" name="Nome" placeholder="Qual frase criativa você gostaria de falar? :)"> <br>
             </div>
 
+    <!--Botão-->
+
             <div  class="text"><button type="submit">Cadastrar</button></div>
         </form>
-        </section>
+    </section>
+    
 </body>
 </html>
